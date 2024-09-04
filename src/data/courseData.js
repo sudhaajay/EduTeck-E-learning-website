@@ -22,40 +22,26 @@ export const courseData = [
       language: 'Language - English [Subtitle Added]',
       date: 'Posted on September 3, 2024'
     },
-    phase1: {
-      phaseName: 'React JS Basic Concept',
-      phaseList: 'Introduction',
-      phaseList1: 'JSX Introduction',
-      phaseList2: 'Components',
-      phaseList3: 'Conditional rendering ',
-      phaseList4: 'Props Drilling',
-    },
-    phase2: {
-      phaseName: 'Hooks Introduction',
-      phaseList: 'useState Hooks',
-      phaseList1: 'useEffect Hooks',
-      phaseList2: 'useRef Hooks',
-      phaseList3: 'useMemo Hooks',
-      phaseList4: 'useContext Hook',
-    },
-    phase3: {
-      phaseName: 'Introduction to React Redux',
-      phaseList: 'Context API',
-      phaseList1: 'React Events introduction',
-      phaseList2: 'onclick capture events',
-      phaseList3: 'onsubmit capture events',
-      phaseList4: 'onscroll events',
-    },
-    phase4: {
-      phaseName: 'Lifecycle of components',
-      phaseList: 'Introduction to constructors',
-      phaseList1: 'component DidMount',
-      phaseList2: 'componentWillUnmount',
-      phaseList3: 'componentDidUpdate',
-      phaseList4: 'componentDidCatch',
-
-    }
+    curriculum: [
+      {
+        phaseName: 'React JS Basic Concept',
+        phaseList: ['Introduction', 'JSX Introduction', 'Components', 'Conditional rendering', 'Props Drilling'],
+      },
+      {
+        phaseName: 'Hooks Introduction',
+        phaseList: ['useState Hooks', 'useEffect Hooks', 'useRef Hooks', 'useMemo Hooks', 'useContext Hook'],
+      },
+      {
+        phaseName: 'Introduction to React Redux',
+        phaseList: ['Context API', 'React Events introduction', 'onclick capture events', 'onsubmit capture events', 'onscroll events'],
+      },
+      {
+        phaseName: 'Lifecycle of components',
+        phaseList: ['Introduction to constructors', 'component DidMount', 'componentWillUnmount', 'componentDidUpdate', 'componentDidCatch'],
+      },
+    ],
   },
+ 
 
  
   {
@@ -69,39 +55,24 @@ export const courseData = [
       language: 'English (US)',
        date: 'Posted on September 3, 2024',
     },
-    phase1: {
-      phaseName: 'Introduction to React JS',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase2: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase3: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase4: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-
-    }
+    curriculum: [
+      {
+        phaseName: 'React JS Basic Concept',
+        phaseList: ['Introduction', 'JSX Introduction', 'Components', 'Conditional rendering', 'Props Drilling'],
+      },
+      {
+        phaseName: 'Hooks Introduction',
+        phaseList: ['useState Hooks', 'useEffect Hooks', 'useRef Hooks', 'useMemo Hooks', 'useContext Hook'],
+      },
+      {
+        phaseName: 'Introduction to React Redux',
+        phaseList: ['Context API', 'React Events introduction', 'onclick capture events', 'onsubmit capture events', 'onscroll events'],
+      },
+      {
+        phaseName: 'Lifecycle of components',
+        phaseList: ['Introduction to constructors', 'component DidMount', 'componentWillUnmount', 'componentDidUpdate', 'componentDidCatch'],
+      },
+    ],
   },
 
   {
@@ -115,39 +86,24 @@ export const courseData = [
       language: 'English (US)',
       date: 'Posted on September 3, 2024',
     },
-    phase1: {
-      phaseName: 'Introduction to React JS',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase2: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase3: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase4: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-
-    }
+    curriculum: [
+      {
+        phaseName: 'React JS Basic Concept',
+        phaseList: ['Introduction', 'JSX Introduction', 'Components', 'Conditional rendering', 'Props Drilling'],
+      },
+      {
+        phaseName: 'Hooks Introduction',
+        phaseList: ['useState Hooks', 'useEffect Hooks', 'useRef Hooks', 'useMemo Hooks', 'useContext Hook'],
+      },
+      {
+        phaseName: 'Introduction to React Redux',
+        phaseList: ['Context API', 'React Events introduction', 'onclick capture events', 'onsubmit capture events', 'onscroll events'],
+      },
+      {
+        phaseName: 'Lifecycle of components',
+        phaseList: ['Introduction to constructors', 'component DidMount', 'componentWillUnmount', 'componentDidUpdate', 'componentDidCatch'],
+      },
+    ],
   },
 
   {
@@ -161,39 +117,24 @@ export const courseData = [
       language: 'English (US)',
       date: 'Posted on September 3, 2024'
     },
-    phase1: {
-      phaseName: 'Introduction to React JS',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase2: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase3: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase4: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-
-    }
+    curriculum: [
+      {
+        phaseName: 'React JS Basic Concept',
+        phaseList: ['Introduction', 'JSX Introduction', 'Components', 'Conditional rendering', 'Props Drilling'],
+      },
+      {
+        phaseName: 'Hooks Introduction',
+        phaseList: ['useState Hooks', 'useEffect Hooks', 'useRef Hooks', 'useMemo Hooks', 'useContext Hook'],
+      },
+      {
+        phaseName: 'Introduction to React Redux',
+        phaseList: ['Context API', 'React Events introduction', 'onclick capture events', 'onsubmit capture events', 'onscroll events'],
+      },
+      {
+        phaseName: 'Lifecycle of components',
+        phaseList: ['Introduction to constructors', 'component DidMount', 'componentWillUnmount', 'componentDidUpdate', 'componentDidCatch'],
+      },
+    ],
   },
  
   {
@@ -207,39 +148,24 @@ export const courseData = [
       language: 'English (US)',
       date: 'Posted on September 3, 2024',
     },
-    phase1: {
-      phaseName: 'Introduction to React JS',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase2: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase3: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase4: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-
-    }
+    curriculum: [
+      {
+        phaseName: 'React JS Basic Concept',
+        phaseList: ['Introduction', 'JSX Introduction', 'Components', 'Conditional rendering', 'Props Drilling'],
+      },
+      {
+        phaseName: 'Hooks Introduction',
+        phaseList: ['useState Hooks', 'useEffect Hooks', 'useRef Hooks', 'useMemo Hooks', 'useContext Hook'],
+      },
+      {
+        phaseName: 'Introduction to React Redux',
+        phaseList: ['Context API', 'React Events introduction', 'onclick capture events', 'onsubmit capture events', 'onscroll events'],
+      },
+      {
+        phaseName: 'Lifecycle of components',
+        phaseList: ['Introduction to constructors', 'component DidMount', 'componentWillUnmount', 'componentDidUpdate', 'componentDidCatch'],
+      },
+    ],
   },
 
   {
@@ -254,39 +180,24 @@ export const courseData = [
       language: 'English (US)',
       date: 'Posted on September 3, 2024',
     },
-    phase1: {
-      phaseName: 'Introduction to React JS',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase2: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase3: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase4: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-
-    }
+    curriculum: [
+      {
+        phaseName: 'React JS Basic Concept',
+        phaseList: ['Introduction', 'JSX Introduction', 'Components', 'Conditional rendering', 'Props Drilling'],
+      },
+      {
+        phaseName: 'Hooks Introduction',
+        phaseList: ['useState Hooks', 'useEffect Hooks', 'useRef Hooks', 'useMemo Hooks', 'useContext Hook'],
+      },
+      {
+        phaseName: 'Introduction to React Redux',
+        phaseList: ['Context API', 'React Events introduction', 'onclick capture events', 'onsubmit capture events', 'onscroll events'],
+      },
+      {
+        phaseName: 'Lifecycle of components',
+        phaseList: ['Introduction to constructors', 'component DidMount', 'componentWillUnmount', 'componentDidUpdate', 'componentDidCatch'],
+      },
+    ],
   },
 
   {
@@ -301,39 +212,24 @@ export const courseData = [
       language: 'English (US)',
       date: 'Posted on September 3, 2024',
     },
-    phase1: {
-      phaseName: 'Introduction to React JS',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase2: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase3: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase4: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-
-    }
+    curriculum: [
+      {
+        phaseName: 'React JS Basic Concept',
+        phaseList: ['Introduction', 'JSX Introduction', 'Components', 'Conditional rendering', 'Props Drilling'],
+      },
+      {
+        phaseName: 'Hooks Introduction',
+        phaseList: ['useState Hooks', 'useEffect Hooks', 'useRef Hooks', 'useMemo Hooks', 'useContext Hook'],
+      },
+      {
+        phaseName: 'Introduction to React Redux',
+        phaseList: ['Context API', 'React Events introduction', 'onclick capture events', 'onsubmit capture events', 'onscroll events'],
+      },
+      {
+        phaseName: 'Lifecycle of components',
+        phaseList: ['Introduction to constructors', 'component DidMount', 'componentWillUnmount', 'componentDidUpdate', 'componentDidCatch'],
+      },
+    ],
   },
 
   {
@@ -348,39 +244,24 @@ export const courseData = [
       language: 'English (US)',
       date: 'Posted on September 3, 2024',
     },
-    phase1: {
-      phaseName: 'Introduction to React JS',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase2: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase3: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-    },
-    phase4: {
-      phaseName: '',
-      phaseList: '',
-      phaseList1: '',
-      phaseList2: '',
-      phaseList3: '',
-      phaseList4: '',
-
-    }
+    curriculum: [
+      {
+        phaseName: 'React JS Basic Concept',
+        phaseList: ['Introduction', 'JSX Introduction', 'Components', 'Conditional rendering', 'Props Drilling'],
+      },
+      {
+        phaseName: 'Hooks Introduction',
+        phaseList: ['useState Hooks', 'useEffect Hooks', 'useRef Hooks', 'useMemo Hooks', 'useContext Hook'],
+      },
+      {
+        phaseName: 'Introduction to React Redux',
+        phaseList: ['Context API', 'React Events introduction', 'onclick capture events', 'onsubmit capture events', 'onscroll events'],
+      },
+      {
+        phaseName: 'Lifecycle of components',
+        phaseList: ['Introduction to constructors', 'component DidMount', 'componentWillUnmount', 'componentDidUpdate', 'componentDidCatch'],
+      },
+    ],
   },
 
 ];

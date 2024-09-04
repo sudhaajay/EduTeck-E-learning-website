@@ -2,6 +2,7 @@ import React from 'react'
 import { SiEducative } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 import'./NavBars.css'
+// import Courses from './Courses/Courses' 
 
 const NavBars = () => {
   return (
@@ -17,7 +18,7 @@ const NavBars = () => {
 <div className="links">
 <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/services">Services</Link></li>
+          <li><Link to="/">Courses</Link></li>
           <li><Link to="/about">About Us</Link></li>
         </ul>
 </div>
@@ -27,9 +28,6 @@ const NavBars = () => {
 
 </div>
         </div> 
-
-
-
      </nav>
     
     </>

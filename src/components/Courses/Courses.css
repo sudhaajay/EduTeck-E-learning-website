@@ -1,62 +1,94 @@
-.course_wrapper{
+.course_wrapper {
     width: 100%;
     display: grid;
     background-color: rgb(245, 245, 255);
 }
-.course_wrapper h2{
+
+.course_wrapper h2 {
     margin-top: 50px;
     margin-bottom: 25px;
     margin-left: 90px;
     font-size: 35px;
 }
-.course_wrapper h2 span{
+
+.course_wrapper h2 span {
     color: rgb(59, 59, 223);
 }
-.course_container{
+
+.course_container {
     display: grid;
     grid-template-columns: repeat(4, 250px);
     justify-content: center;
     gap: 2.5rem;
 }
-.course_card{
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .course_container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .course_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .course_container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.course_card {
     position: relative;
     background-color: #fff;
     padding: 2rem 0;
     border: 1px solid hsl(0, 0%, 94%);
     text-align: center;
-    transition:.3s ;
+    transition: .3s;
 }
-.course_card:hover{
+
+.course_card:hover {
     box-shadow: 0 8px 32px hsla(0, 0%, 10%, .1);
+    transform: scale(1.02);
 }
-.course_img{
+
+.course_img {
     height: 125px;
     margin-bottom: 1rem;
 }
-.course_name, .course_price, .course_standard{
+
+.course_name, .course_price, .course_standard {
     text-align: start;
     margin-left: 10px;
 }
-.course_name{
+
+.course_name {
     margin-bottom: .5rem;
 }
-.course_price{
+
+.course_price {
     display: block;
     margin-bottom: 1rem;
     font-size: 22px;
     font-weight: 600;
     color: rgb(59, 59, 223);
 }
-.course_standard{
+
+.course_standard {
     font-size: 16px;
     color: #8d8c8c;
 }
-.course_standard .analytic{
+
+.course_standard .analytic {
     font-size: 18px;
     color: black;
     margin-right: 5px;
 }
-.course_button{
+
+.course_button {
     display: inline-block;
     border: none;
     border-radius: 30px;
@@ -66,4 +98,8 @@
     margin-top: 20px;
     transition: .3s;
     background-color: #0041C2;
+}
+
+.course_button:hover {
+    background-color: #0033a0; /* Slightly darker shade for hover */
 }

@@ -22,9 +22,9 @@ const Footer = () => {
             <h2>COMPANY</h2>
             <ul>
               <li>Home</li>
+              <li>Courses</li>
               <li>About Us</li>
-              <li>Services</li>
-             
+           
             </ul>
           </div>
           <div className="content_right">

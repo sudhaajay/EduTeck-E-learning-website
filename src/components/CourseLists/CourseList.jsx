@@ -1,12 +1,16 @@
-// CourseList.jsx
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { CourseContents } from "../CourseContents/CourseContent"; // Correct path to CourseContents context
-import Courses from "../Courses/Courses"; // Correct path to Courses component
+import { CourseContents } from "../CourseContents/CourseContent"; // Adjust path if needed
+import Courses from "../Courses/Courses"; // Adjust path if needed
 
 const CourseList = () => {
-  // Extracting courseContents from context
+  // Use context to get courseContents
   const { courseContents } = useContext(CourseContents);
+
+  // Check if courseContents is defined and has items
+  if (!courseContents || courseContents.length === 0) {
+    return <div>No courses available</div>;
+  }
 
   return (
     <div className='course_wrapper'>
@@ -14,7 +18,7 @@ const CourseList = () => {
       <div className="course_container">
         {courseContents.map((course) => (
           <Link to={`/course/${course.id}`} key={course.id}>
-            <Courses course={course} /> {/* Assuming Courses component is used to display each course */}
+            <Courses course={course} /> {/* Make sure Courses component is set up to handle `course` prop */}
           </Link>
         ))}
       </div>
